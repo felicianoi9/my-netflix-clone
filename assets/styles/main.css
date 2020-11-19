@@ -55,6 +55,13 @@ header .container{
     
 }
 
+.principal-movie .net-movie-sinopse{
+    margin-top: 40px;
+}
+.net-movie-title{
+    font-size: 90px;
+}
+
 /* About Movies - end */
 
 

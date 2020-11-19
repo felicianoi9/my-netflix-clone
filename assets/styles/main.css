@@ -56,10 +56,32 @@ header .container{
 }
 
 .principal-movie .net-movie-sinopse{
-    margin-top: 40px;
+    margin-top: 10px;
+    margin-bottom: 40px;
 }
 .net-movie-title{
+    margin-top: 20%;
     font-size: 90px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.net-movie-watch-now, .net-movie-more-info {
+    background-color: rgba(0,0,0,.50) ;
+    border: none;
+    color: #fff;
+    padding: 15px;
+    margin-right: 20px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+.net-movie-watch-now:hover, .net-movie-more-info:hover {
+    color: #141414;
+    background: #fff;
+
+}
+i{
+    margin-right: 8px;
 }
 
 /* About Movies - end */

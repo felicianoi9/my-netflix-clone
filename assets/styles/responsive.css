@@ -1,0 +1,22 @@
+@media screen and (max-width: 780px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .net-movie-btn-group{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .net-movie-watch-now, .net-movie-more-info {
+        margin-top: 10px;
+        width: 200px;
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .net-movie-sinopse{
+        width: 50%;
+    }
+}

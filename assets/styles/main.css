@@ -76,14 +76,8 @@ header .container{
 }
 
 .net-movie-watch-now:hover {
-    background-color: rgba(255, 255, 255, 0.5) ;
-    border: none;
-    color: #141414;
-    padding: 15px;
-    margin-right: 20px;
-    font-size: 12px;
-    cursor: pointer;
-    transition: .5s ease all;
+    background-color: rgba(255, 255, 255, 0.1) ;
+   
 }
 .net-movie-more-info {
     background-color: rgba(0, 0, 0, 0.6) ;
@@ -98,7 +92,7 @@ header .container{
 
 
 .net-movie-more-info:hover {
-    background: rgba(61, 60, 60, 0.3) ;
+    background: rgba(61, 60, 60, 0.2) ;
     
 }
 i{
@@ -106,21 +100,24 @@ i{
 }
 
 .container{
-    margin-left:  20px;;
+    margin-left:  20px;
 }
 
 .principal-movie .container{
-    width: 30%;
+    width: 100%;
 }
 
 /* About Movies - end */
 
 /* Carousel - start */
-
+.carousel-movies{
+    margin-top: 5px;
+}
 .box-carousel-movie{
     height: 100%;
     width: 100%;
     display: block;
+    cursor: pointer;
 }
 
 /* Carousel - start */
